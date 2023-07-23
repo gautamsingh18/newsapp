@@ -4,8 +4,8 @@ export class NewsItem extends Component {
   render() {
     let { title, description, imageUrl, newsUrl } = this.props;
     return (
-      <div>
-        <div className="card" style={{ width: "18rem" }}>
+      <>
+        <div className="card">
           <img src={imageUrl} className="card-img-top " alt="..." />
           <div className="card-body">
             <h5 className="card-title">{title}</h5>
@@ -14,13 +14,13 @@ export class NewsItem extends Component {
               href={newsUrl}
               target="_blank"
               rel="noreferrer"
-              className="btn btn-primary btn-sm"
+              className="btn btn-dark btn-sm"
             >
               read more
             </a>
           </div>
         </div>
-      </div>
+      </>
     );
   }
 }

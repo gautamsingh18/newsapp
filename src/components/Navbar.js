@@ -9,7 +9,7 @@ export class Navbar extends Component {
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container-fluid">
             <a className="navbar-brand" href="/" style={{ color: "white" }}>
-              RealFakeNews
+              NewsApp
             </a>
             <button
               className="navbar-toggler"
